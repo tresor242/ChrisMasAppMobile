@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et_child_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom d'utilisateur de l'enfant" />
+
+    <Button
+        android:id="@+id/btn_view_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voir les informations" />
+
+    <TextView
+        android:id="@+id/tv_child_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:paddingTop="16dp" />
+</LinearLayout>

@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tv_child_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nom : Alice Wonderland"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_child_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Localisation : Paris, France"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_child_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Âge : 10"
+        android:textSize="14sp" />
+</LinearLayout>
